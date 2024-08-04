@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>saden</title>
+    <link rel="icon" type="image/png" href="images/coba.jpeg">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            flex-direction: column;
+            background-color: #f0f0f0; /* Latar belakang yang lebih menarik */
+        }
+
+        .section-title-bottom {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .section-title-line {
+            flex: 1;
+            height: 1px;
+            background-color: #000; /* Warna garis */
+            width: 100%; /* Sesuaikan dengan kebutuhan */
+            margin: 5px 0; /* Spasi antara garis dan ikon */
+        }
+
+        .section-title-icon {
+            font-size: 2em; /* Sesuaikan ukuran ikon */
+            color: red; /* Warna ikon */
+            margin: 0 10px; /* Spasi antara ikon dan garis */
+        }
+
+        .section-title-text {
+            margin-top: 20px; /* Spasi antara ikon dan tombol */
+            font-size: 2em; /* Sesuaikan ukuran teks */
+            font-family: 'Amatic SC', cursive; /* Font family */
+            text-decoration: none; /* Hilangkan garis bawah pada link */
+            color: #fff; /* Warna teks */
+            background-color: #ff6347; /* Warna latar belakang tombol */
+            padding: 10px 20px; /* Padding untuk tombol */
+            border-radius: 10px; /* Sudut tombol melengkung */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Bayangan tombol */
+            transition: background-color 0.3s ease, transform 0.3s ease; /* Efek transisi */
+        }
+
+        .section-title-text:hover {
+            background-color: #e55342; /* Warna latar belakang tombol saat hover */
+            transform: translateY(-2px); /* Efek transformasi saat hover */
+        }
+
+        @media (max-width: 768px) {
+            .section-title-icon {
+                font-size: 1.5em; /* Sesuaikan ukuran ikon untuk layar lebih kecil */
+            }
+
+            .section-title-text {
+                font-size: 1.5em; /* Sesuaikan ukuran teks untuk layar lebih kecil */
+                padding: 8px 16px; /* Sesuaikan padding untuk layar lebih kecil */
+            }
+        }
+
+        @media (max-width: 480px) {
+            .section-title-icon {
+                font-size: 1.2em; /* Sesuaikan ukuran ikon untuk layar yang sangat kecil */
+            }
+
+            .section-title-text {
+                font-size: 1.2em; /* Sesuaikan ukuran teks untuk layar yang sangat kecil */
+                padding: 6px 12px; /* Sesuaikan padding untuk layar yang sangat kecil */
+            }
+        }
+    </style>
+    <!-- Pastikan Anda menambahkan tautan ke Bootstrap Icon jika belum -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.5.0/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <div class="section-title-bottom">
+        <span class="section-title-line"></span>
+        <i class="section-title-icon bi-heart-fill"></i>
+        <span class="section-title-line"></span>
+        <a href="saden.html" class="section-title-text">Mulai</a>
+    </div>
+</body>
+</html>
